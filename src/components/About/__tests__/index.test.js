@@ -7,4 +7,7 @@ afterEach(cleanup);
 
 describe('About component', () => {
     //renders About Test
+    it('renders', () => {
+        render(<About />);
+    })
 })
